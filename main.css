@@ -1,0 +1,145 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 
+Colors
+
+krem rgb(238, 233, 218) 
+gri rgb(189, 205, 214)
+açık mavi rgb(147, 191, 207)
+mavi rgb(96, 150, 180)
+*/
+
+
+/* Header */
+
+header{
+    background-color: rgb(68, 129, 161);
+}
+
+nav{
+    max-width: 1000px;
+    margin: auto;
+    color: rgb(238, 233, 218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 2rem 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(238, 233, 218);
+}
+
+nav ul li a:hover{
+    color: rgb(147, 191, 207);
+}
+
+/* main */
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+.page-header{
+    width: 100%;
+    height: 150px;
+    color: rgb(147, 191, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/* index.html */
+
+#main-section{
+    display: flex;
+}
+
+#text p{
+    font-size: 1.25rem;
+}
+
+#text , #list{
+    width: 50%;
+    padding: 1.5rem;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#list h3{
+    color: rgb(68, 129, 161);
+    margin-bottom: 1rem;
+}
+
+/* urunlerimiz.html */
+
+.urun-list{
+    margin: 2rem 0;
+}
+
+.urun-list h3{
+    text-align: center;
+}
+
+.urun-list ol{
+    display: flex;
+    list-style-type: none;
+}
+
+.urun-list ol li{
+    width: 50%;
+    padding: 2rem 5rem;
+}
+
+.urun-list ol li a img{
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.urun-list ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* hakkimizda */
+
+.vizyon-misyon{
+    margin: 2rem 0;
+}
+
+.vizyon-misyon h4{
+    font-size: 1.5rem;
+    color: rgb(68, 129, 161);
+    margin-bottom: 1rem;
+}
